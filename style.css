@@ -1,0 +1,145 @@
+.header{
+    width: 100%;
+    background-color: purple;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.hero1{
+    height: 1000px;
+    background-size: cover;
+    background-image: url(hero1.jpg);
+    text-align: center;
+    padding: 250px;
+}
+
+.hero1 h1{
+    color: white;
+   font-size: 90px;
+   border-radius: 25px;
+   background-blend-mode: lighten;
+}
+
+.hero1 p{
+    color: white;
+    font-size: 20px;
+}
+
+.hero1 a{
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 35px;
+}
+
+.hero1 a:hover{
+    color: white;
+    background-color: rgb(99, 8, 99);
+}
+
+.snack{
+    background-color: rgb(250, 175, 156);
+    height: 300px;
+    width: 240px;
+    margin-left: 24px;
+    margin-top: 15px;
+
+}
+
+.snack img{
+    height: 150px;
+    width: 240px;
+    border-radius: 4px;
+}
+
+.nama-snack{
+    color: purple;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.harga-snack{
+    color: purple;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: -20px;
+    margin-left: 15px;
+}  
+
+.snack a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 35px;
+}
+
+.snack a:hover{
+    color: white;
+    background-color: rgb(99, 8, 99);
+}
+
+.menu-snack{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: purple;
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero1{
+        height: 400px;
+        padding: 100px;
+    }
+    .hero1 h1{
+        color: white;
+       font-size: 25px;
+    }
+
+    .snack{
+        width: 150px;
+        height: 200px;
+    }
+    .snack img{
+        width:150px;
+        height: 100px;
+    }
+    
+    .nama-snack {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .snack a{
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+}
+
